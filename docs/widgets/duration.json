@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6cc806c175ac6d01",
+  "name" : "Testing search on playwright documentation page",
+  "time" : {
+    "start" : 1674417607722,
+    "stop" : 1674417611071,
+    "duration" : 3349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

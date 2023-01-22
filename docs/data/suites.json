@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "test-search.spec.ts",
+      "children" : [ {
+        "name" : "Testing search on playwright documentation page",
+        "uid" : "6cc806c175ac6d01",
+        "parentUid" : "ff2fca4cb2eb35c0abc6e26f6f5b4857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674417607722,
+          "stop" : 1674417611071,
+          "duration" : 3349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "ff2fca4cb2eb35c0abc6e26f6f5b4857"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-VDKHCJMI",
+    "children" : [ {
+      "name" : "LAPTOP-VDKHCJMI-10264-playwright-worker-0",
+      "children" : [ {
+        "name" : "Testing search on playwright documentation page",
+        "uid" : "6cc806c175ac6d01",
+        "parentUid" : "11f730d233e16870136c88201df089b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674417607722,
+          "stop" : 1674417611071,
+          "duration" : 3349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "11f730d233e16870136c88201df089b4"
+    } ],
+    "uid" : "817c70284293979ce2ceda7b8105bd14"
+  } ]
+}

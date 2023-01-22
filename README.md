@@ -1,2 +1,1 @@
-# playwright_typescript
- 
+# Playwright Typescript
