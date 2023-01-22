@@ -1,0 +1,10 @@
+{
+  "name": "playwright_typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  },
+  "scripts": {}
+}
