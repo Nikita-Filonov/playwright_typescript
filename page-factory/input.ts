@@ -12,7 +12,7 @@ export class Input extends Component {
   async fill(value: string, fillProps: FillProps = {}) {
     const { validateValue, ...locatorProps } = fillProps;
 
-    await test.step(`Fill {self.type_of} "{self.name}" to value "{value}"`, async () => {
+    await test.step(`Fill ${this.typeOf} "${this.componentName}" to value "${value}"`, async () => {
       const locator = await this.getLocator(locatorProps);
       await locator.fill(value);
 
