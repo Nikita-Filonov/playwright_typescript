@@ -1,6 +1,6 @@
 import { Fixtures, Page } from '@playwright/test';
 import { BaseFixture } from '../types/playwright';
-import { mockStaticRecourses } from '../utils/mocks/static.mock';
+import { mockStaticRecourses } from '../utils/mocks/static-mock';
 
 export type ContextPagesFixture = {
   contextPage: Page;
