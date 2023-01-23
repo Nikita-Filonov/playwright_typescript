@@ -6,39 +6,19 @@ import { locatorTemplateFormat } from '../utils/page-factory';
 export abstract class Component {
   page: Page;
   locator: string;
-  private nth: number | undefined;
   private name: string | undefined;
 
-  constructor({ page, locator, name, nth }: ComponentProps) {
+  constructor({ page, locator, name }: ComponentProps) {
     this.page = page;
     this.locator = locator;
     this.name = name;
-    this.nth = nth;
   }
 
-  async getLocator(props: LocatorProps = {}): Promise<Locator> {
-    const { first, last, locator, nth, scrollIntoView, ...context } = props;
+  getLocator(props: LocatorProps = {}): Locator {
+    const { locator, ...context } = props;
     const withTemplate = locatorTemplateFormat(locator || this.locator, context);
 
-    let element = this.page.locator(withTemplate);
-
-    if (first) {
-      element = element.first();
-    }
-
-    if (last) {
-      element = element.last();
-    }
-
-    if (nth !== undefined || this.nth !== undefined) {
-      element = element.nth(nth || this.nth || 0);
-    }
-
-    if (scrollIntoView) {
-      await element.scrollIntoViewIfNeeded();
-    }
-
-    return element;
+    return this.page.locator(withTemplate);
   }
 
   get typeOf(): string {
@@ -63,21 +43,21 @@ export abstract class Component {
 
   async shouldBeVisible(locatorProps: LocatorProps = {}): Promise<void> {
     await test.step(`${this.typeOfUpper} "${this.componentName}" should be visible on the page`, async () => {
-      const locator = await this.getLocator(locatorProps);
+      const locator = this.getLocator(locatorProps);
       await expect(locator, { message: this.getErrorMessage('is not visible') }).toBeVisible();
     });
   }
 
   async shouldHaveText(text: string, locatorProps: LocatorProps = {}): Promise<void> {
     await test.step(`${this.typeOfUpper} "${this.componentName}" should have text "${text}"`, async () => {
-      const locator = await this.getLocator(locatorProps);
+      const locator = this.getLocator(locatorProps);
       await expect(locator, { message: this.getErrorMessage(`does not have text "${text}"`) }).toContainText(text);
     });
   }
 
   async click(locatorProps: LocatorProps = {}): Promise<void> {
     await test.step(`Clicking the ${this.typeOf} with name "${this.componentName}"`, async () => {
-      const locator = await this.getLocator(locatorProps);
+      const locator = this.getLocator(locatorProps);
       await locator.click();
     });
   }

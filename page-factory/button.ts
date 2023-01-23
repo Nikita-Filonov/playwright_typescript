@@ -9,14 +9,14 @@ export class Button extends Component {
 
   async hover(locatorProps: LocatorProps = {}): Promise<void> {
     await test.step(`Hovering the ${this.typeOf} with name "${this.componentName}"`, async () => {
-      const locator = await this.getLocator(locatorProps);
+      const locator = this.getLocator(locatorProps);
       await locator.hover();
     });
   }
 
   async doubleClick(locatorProps: LocatorProps = {}) {
     await test.step(`Double clicking ${this.typeOf} with name "${this.componentName}"`, async () => {
-      const locator = await this.getLocator(locatorProps);
+      const locator = this.getLocator(locatorProps);
       await locator.dblclick();
     });
   }
