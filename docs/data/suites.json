@@ -7,13 +7,13 @@
       "name" : "test-search.spec.ts",
       "children" : [ {
         "name" : "Testing search on playwright documentation page",
-        "uid" : "6cc806c175ac6d01",
+        "uid" : "7ee9a46022c9a355",
         "parentUid" : "ff2fca4cb2eb35c0abc6e26f6f5b4857",
         "status" : "passed",
         "time" : {
-          "start" : 1674417607722,
-          "stop" : 1674417611071,
-          "duration" : 3349
+          "start" : 1674499125489,
+          "stop" : 1674499140576,
+          "duration" : 15087
         },
         "flaky" : false,
         "newFailed" : false,

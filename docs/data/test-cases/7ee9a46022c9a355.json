@@ -1,0 +1,653 @@
+{
+  "uid" : "7ee9a46022c9a355",
+  "name" : "Testing search on playwright documentation page",
+  "fullName" : "test-search.spec.ts#Testing search on playwright documentation page",
+  "historyId" : "910a00f0a76c19d6f5a7d29760fee17a",
+  "time" : {
+    "start" : 1674499125489,
+    "stop" : 1674499140576,
+    "duration" : 15087
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1674499125490,
+        "stop" : 1674499133777,
+        "duration" : 8287
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1674499125490,
+          "stop" : 1674499133777,
+          "duration" : 8287
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1674499125845,
+            "stop" : 1674499125955,
+            "duration" : 110
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "page.route",
+          "time" : {
+            "start" : 1674499125958,
+            "stop" : 1674499126080,
+            "duration" : 122
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Opening the url \"https://playwright.dev\"",
+          "time" : {
+            "start" : 1674499126083,
+            "stop" : 1674499133777,
+            "duration" : 7694
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "page.goto(https://playwright.dev)",
+            "time" : {
+              "start" : 1674499126088,
+              "stop" : 1674499133776,
+              "duration" : 7688
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127326,
+              "stop" : 1674499127343,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127327,
+              "stop" : 1674499127344,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127327,
+              "stop" : 1674499127344,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127329,
+              "stop" : 1674499127344,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127331,
+              "stop" : 1674499127344,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127332,
+              "stop" : 1674499127345,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127333,
+              "stop" : 1674499127345,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127335,
+              "stop" : 1674499127345,
+              "duration" : 10
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127336,
+              "stop" : 1674499127345,
+              "duration" : 9
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "route.abort",
+            "time" : {
+              "start" : 1674499127339,
+              "stop" : 1674499127347,
+              "duration" : 8
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "hasContent" : false,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 11,
+          "hasContent" : true,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 14,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Button \"Search\" should be visible on the page",
+      "time" : {
+        "start" : 1674499133779,
+        "stop" : 1674499133815,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "The button with name \"Search\" and locator button.DocSearch-Button is not visible",
+        "time" : {
+          "start" : 1674499133783,
+          "stop" : 1674499133815,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Hovering the button with name \"Search\"",
+      "time" : {
+        "start" : 1674499133816,
+        "stop" : 1674499133853,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "locator.hover(button.DocSearch-Button)",
+        "time" : {
+          "start" : 1674499133817,
+          "stop" : 1674499133852,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Clicking the button with name \"Search\"",
+      "time" : {
+        "start" : 1674499133853,
+        "stop" : 1674499133894,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "locator.click(button.DocSearch-Button)",
+        "time" : {
+          "start" : 1674499133854,
+          "stop" : 1674499133894,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Input \"Search docs\" should be visible on the page",
+      "time" : {
+        "start" : 1674499133894,
+        "stop" : 1674499136818,
+        "duration" : 2924
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "The input with name \"Search docs\" and locator #docsearch-input is not visible",
+        "time" : {
+          "start" : 1674499133897,
+          "stop" : 1674499136818,
+          "duration" : 2921
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Title \"Empty results\" should be visible on the page",
+      "time" : {
+        "start" : 1674499136818,
+        "stop" : 1674499136828,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "The title with name \"Empty results\" and locator p.DocSearch-Help is not visible",
+        "time" : {
+          "start" : 1674499136819,
+          "stop" : 1674499136827,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fill input \"Search docs\" to value \"python\"",
+      "time" : {
+        "start" : 1674499136831,
+        "stop" : 1674499136877,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "locator.fill(#docsearch-input)",
+        "time" : {
+          "start" : 1674499136832,
+          "stop" : 1674499136856,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Checking that input \"Search docs\" has a value \"python\"",
+        "time" : {
+          "start" : 1674499136856,
+          "stop" : 1674499136877,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "expect.toHaveValue",
+          "time" : {
+            "start" : 1674499136858,
+            "stop" : 1674499136876,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Clicking the list item with name \"Result item\"",
+      "time" : {
+        "start" : 1674499136877,
+        "stop" : 1674499139482,
+        "duration" : 2605
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "locator.click(#docsearch-item-0)",
+        "time" : {
+          "start" : 1674499136880,
+          "stop" : 1674499139481,
+          "duration" : 2601
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Title \"Language title\" should be visible on the page",
+      "time" : {
+        "start" : 1674499139482,
+        "stop" : 1674499140360,
+        "duration" : 878
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "The title with name \"Language title\" and locator h2#{language} is not visible",
+        "time" : {
+          "start" : 1674499139485,
+          "stop" : 1674499140360,
+          "duration" : 875
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Title \"Language title\" should have text \"Python\"",
+      "time" : {
+        "start" : 1674499140360,
+        "stop" : 1674499140369,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "The title with name \"Language title\" and locator h2#{language} does not have text \"Python\"",
+        "time" : {
+          "start" : 1674499140361,
+          "stop" : 1674499140369,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1674499140369,
+        "stop" : 1674499140569,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1674499140511,
+          "stop" : 1674499140560,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "9c3ef444b4a86a15",
+      "name" : "video",
+      "source" : "9c3ef444b4a86a15.webm",
+      "type" : "video/webm",
+      "size" : 339827
+    }, {
+      "uid" : "52167ff0ab6d200d",
+      "name" : "screenshot",
+      "source" : "52167ff0ab6d200d.png",
+      "type" : "image/png",
+      "size" : 91637
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 38,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "test-search.spec.ts"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-VDKHCJMI"
+  }, {
+    "name" : "thread",
+    "value" : "LAPTOP-VDKHCJMI-1760-playwright-worker-0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d9cd23cd4c5554d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674498702901,
+        "stop" : 1674498731779,
+        "duration" : 28878
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ee9a46022c9a355.json",
+  "parameterValues" : [ "chromium" ]
+}

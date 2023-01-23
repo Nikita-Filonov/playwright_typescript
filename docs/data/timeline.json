@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "LAPTOP-VDKHCJMI",
     "children" : [ {
-      "name" : "LAPTOP-VDKHCJMI-10264-playwright-worker-0",
+      "name" : "LAPTOP-VDKHCJMI-23708-playwright-worker-0",
       "children" : [ {
         "name" : "Testing search on playwright documentation page",
-        "uid" : "6cc806c175ac6d01",
-        "parentUid" : "11f730d233e16870136c88201df089b4",
+        "uid" : "4d9cd23cd4c5554d",
+        "parentUid" : "2780bfde62c6a3d6323fbf03556c9fa7",
         "status" : "passed",
         "time" : {
-          "start" : 1674417607722,
-          "stop" : 1674417611071,
-          "duration" : 3349
+          "start" : 1674498702901,
+          "stop" : 1674498731779,
+          "duration" : 28878
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chromium" ]
       } ],
-      "uid" : "11f730d233e16870136c88201df089b4"
+      "uid" : "2780bfde62c6a3d6323fbf03556c9fa7"
+    }, {
+      "name" : "LAPTOP-VDKHCJMI-1760-playwright-worker-0",
+      "children" : [ {
+        "name" : "Testing search on playwright documentation page",
+        "uid" : "7ee9a46022c9a355",
+        "parentUid" : "6f3d208f0a599b64af0caff3c340818c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674499125489,
+          "stop" : 1674499140576,
+          "duration" : 15087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "6f3d208f0a599b64af0caff3c340818c"
     } ],
     "uid" : "817c70284293979ce2ceda7b8105bd14"
   } ]
