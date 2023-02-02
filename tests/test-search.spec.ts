@@ -1,8 +1,7 @@
-import { BASE_URL } from '../settings';
 import { searchTest as test } from './tests';
 
 test.beforeEach(async ({ playwrightHomePage }) => {
-  await playwrightHomePage.visit(BASE_URL);
+  await playwrightHomePage.visit('/');
 });
 
 test('Testing search on playwright documentation page', async ({ playwrightHomePage, playwrightLanguagesPage }) => {
