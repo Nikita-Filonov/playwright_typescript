@@ -1,5 +1,7 @@
 # Playwright Typescript
 
+[Demo allure report](https://nikita-filonov.github.io/playwright_typescript/)
+
 **Project setup**
 
 ```
